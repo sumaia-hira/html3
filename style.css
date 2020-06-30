@@ -1,0 +1,99 @@
+.top {
+    margin: 0;
+  background-color: bisque;
+  height: 300px;
+  
+  
+  
+ 
+  position: relative;
+  animation: animation-bg 2s 1s infinite alternate backwards;
+  
+}
+.top-left {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+    letter-spacing: 6px;
+    font-weight: 700;
+    position: relative;
+    animation: text 3s 1;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+
+}
+.top-right {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    position: relative;
+    animation: text 3s 1;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+}
+
+@keyframes animation-bg
+{
+    from {background-color: purple;}
+    to {background-color: rgb(55, 3, 122);}
+}
+body {
+    margin: 0;
+    background: linear-gradient(white, #D3D8E8);
+           font-family: Arial, Helvetica, sans-serif;
+           padding: 0%;
+}
+@keyframes text {
+ 0%{
+     letter-spacing: normal;
+ }
+ 30%{
+     letter-spacing: 10px;
+
+ }
+ 55%{
+     letter-spacing: 6px;
+ }
+}
+
+
+.middle {
+    height: 500px;
+    width: 100%;
+   
+}
+.middle-right img {
+    width: 30%;
+    float: right;
+    padding: 60px;
+    margin-right:10% ;
+}
+.middle-left{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 15%;
+}
+.web-dev-jrny {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+    color: rebeccapurple;
+   
+}
+.link-button {
+    text-decoration: none;
+    background-color: sandybrown;
+    padding: 20px;
+    width: 30px;
+    border-radius: 5px;
+    font-size: 40px;
+   
+}
+.para {
+    margin-top: 50px;
+}
